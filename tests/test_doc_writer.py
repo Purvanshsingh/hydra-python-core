@@ -142,8 +142,8 @@ class TestDocWriter(unittest.TestCase):
             'http://petstore.swagger.io/v2',
             collection=mocked_hydra_collection)
         expected_context = {
-            "vocab": "http://petstore.swagger.io/v2/vocab#",
             "hydra": "http://www.w3.org/ns/hydra/core#",
+            "vocab": "http://petstore.swagger.io/v2/vocab#",
             "members": "http://www.w3.org/ns/hydra/core#member",
             "PetCollection": "vocab:PetCollection",
             "Pet": "vocab:Pet"
